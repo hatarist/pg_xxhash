@@ -1,0 +1,34 @@
+{
+    "name": "pg_xxhash",
+    "abstract": "PostgreSQL xxHash",
+    "description": "pg_xxhash implements fast xxhash hash calculation",
+    "version": "0.0.1",
+    "maintainer": "hatarist <hatarist@gmail.com>",
+    "license": "mit",
+    "provides": {
+        "pg_xxhash": {
+            "file": "xxhash--0.0.1.sql",
+            "version": "0.0.1"
+        }
+    },
+    "resources": {
+        "bugtracker": {
+            "web": "https://github.com/hatarist/pg_xxhash/issues"
+        },
+        "repository": {
+            "url": "git://github.com/hatarist/pg_xxhash.git",
+            "web": "https://github.com/hatarist/pg_xxhash",
+            "type": "git"
+        }
+    },
+    "generated_by": "hatarist",
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    },
+    "tags": [
+        "functions",
+        "hash",
+        "xxhash"
+    ]
+}

@@ -11,7 +11,8 @@ Issues are discouraged, pull requests are greatly appreciated.
 
 ## TODO
 
- - [ ] functions that return `int`/`bytea` instead of hex string (inefficient af)
+ - [ ] functions that return `int`/`bytea` instead of hex string
+ - [ ] tests
  - [ ] seed/secret support
 
 
