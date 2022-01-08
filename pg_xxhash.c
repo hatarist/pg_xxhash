@@ -59,6 +59,17 @@ Datum pg_xxh3_64(PG_FUNCTION_ARGS) {
 }
 
 
+PG_FUNCTION_INFO_V1(pg_xxh3_64_uint);
+
+Datum pg_xxh3_64_uint(PG_FUNCTION_ARGS) {
+    char *input;
+    input = text_to_cstring(PG_GETARG_TEXT_P(0));
+
+    uint64_t const h = XXH3_64bits(input, strlen(input));
+    PG_RETURN_UINT64(h);
+}
+
+
 PG_FUNCTION_INFO_V1(pg_xxh3_128);
 
 Datum pg_xxh3_128(PG_FUNCTION_ARGS) {
