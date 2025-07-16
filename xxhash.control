@@ -1,4 +1,5 @@
 # xxhash
-default_version = '0.0.1'
+comment = 'Provide xxhash functions'
+default_version = '0.0.2'
 relocatable = 'true'
 module_pathname = '$libdir/xxhash'

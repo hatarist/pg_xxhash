@@ -11,7 +11,6 @@ Issues are discouraged, pull requests are greatly appreciated.
 
 ## TODO
 
- - [ ] tests
  - [ ] seed/secret support
 
 

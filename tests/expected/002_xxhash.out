@@ -1,0 +1,6 @@
+-- test with example query
+SELECT url, xxh32(url), xxh64(url), xxh3_64(url), xxh128(url) FROM (SELECT 'https://example.com' AS url) x;
+         url         |  xxh32   |      xxh64       |     xxh3_64      |              xxh128
+---------------------+----------+------------------+------------------+----------------------------------
+ https://example.com | ba15a4a8 | b131752760b48654 | 9398cc7c078760e6 | 4879d6aa9d88e9c7a169c008892d4829
+(1 row)
